@@ -1,9 +1,11 @@
 {
-  "IsEncrypted": true,
+  "IsEncrypted": false,
   "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "CfDJ8KvJ6DmYyMJCgkPKMHi9yggxobSNL+EiBudqjTbkN08MV8FPGx7WqKyJXi1vK5/3O48YnxQvGjJtBiH2gbzh8qUxrA2On+1JRf1xQeWwdKwATocSwT1CMT9SN2gtzXs0ZQ=="
-  },
-  "ConnectionStrings": {},
-
-  "AzureWebJobsStorage": ""
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storagend081gauthamr1;AccountKey=OpSinkl9qgJfeH/kzqWzPMP9P9zjtDYQMW8Hs9kyXULbwQHK1fUCiD0Kbqjc4gBxu+Z1BQe4rAKD+AStRaY2DA==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING":"DefaultEndpointsProtocol=https;AccountName=storagend081gauthamr1;AccountKey=OpSinkl9qgJfeH/kzqWzPMP9P9zjtDYQMW8Hs9kyXULbwQHK1fUCiD0Kbqjc4gBxu+Z1BQe4rAKD+AStRaY2DA==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE":"neighbourlyapp-nd081-gauthamr1a5d5",  
+    "MyDbConnection":"mongodb://db-nd081-gauthamr1:V2vxP0TiDmsh4tNXW17Z0yRKjaHEnumbJsasLPgkW94vPQPCkwZmig742vPGqc34gxnCdx1z6vyxZqnMCkJS4Q==@db-nd081-gauthamr1.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@db-nd081-gauthamr1@"
+  }
 }
